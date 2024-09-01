@@ -16,7 +16,7 @@ const PaginationForTable = ({ currentPage, totalItems, itemsPerPage, onPageChang
     };
 
     return (
-        <div className="flex items-center justify-end space-x-4">
+        <div className="flex items-center justify-end space-x-4 my-5">
             <select
                 value={itemsPerPage}
                 onChange={(e) => onItemsPerPageChange(parseInt(e.target.value))}

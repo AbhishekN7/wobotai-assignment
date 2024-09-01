@@ -16,7 +16,7 @@ const CameraTableFilters = ({ selectedStatus, cameraData, selectedLocation, setS
         return uniqueLocations;
     };
     return (
-        <div className="flex items-center justify-between mb-4">
+        <div className="flex items-center justify-between my-4">
             <div className="flex items-center gap-4">
                 <div className='flex items-center'>
                     <CiLocationOn className='mr-[-20px] z-10' />
@@ -29,8 +29,6 @@ const CameraTableFilters = ({ selectedStatus, cameraData, selectedLocation, setS
                         {fetchAllLocations().map((option) => {
                             return <option value={`${option}`}>{option}</option>
                         })}
-                        {/* <option value="Los Angeles, CA">Los Angeles, CA</option>
-                        <option value="Chicago, IL">Chicago, IL</option> */}
                     </select>
                 </div>
                 <div className='flex items-center'>

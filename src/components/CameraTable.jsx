@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { IoCloudyOutline } from "react-icons/io5";
 import { GoServer } from "react-icons/go";
-import { FaSearch } from 'react-icons/fa';
 import { TiDeleteOutline } from "react-icons/ti";
-import axios from 'axios';
 import { toast } from 'react-toastify';
 
 const CameraTable = ({ cameraData, updateCameraStatus }) => {
